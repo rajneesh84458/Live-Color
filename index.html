@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="chrome">
+    <title>Document</title>
+<style>
+h1 {
+             
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+             font-size: 40px;
+         }
+
+         input{
+             width: 400px;
+             height: 50px;
+             font-size: 20px;
+         }
+
+</style>
+<script>
+
+function abc(){
+                     var x = document.getElementById("input").value
+                     var  y= document.getElementById("result");
+                  
+                     y.style.backgroundColor=x;
+
+}
+
+</script>
+
+</head>
+<body id="result">
+ <div align="center">   
+<h1>Live color preview</h1>
+<input id="input" oninput=abc() >
+
+
+</div>
+</body>
+</html>
